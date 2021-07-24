@@ -28,6 +28,17 @@ class AddRecipeModal extends Component {
   uploadHandler = (e) => {
     e.preventDefault();
     this.props.addNewRecipe(this.state.newRecipe, this.state.ingredients);
+    this.setState({
+      newRecipe: {
+        title: "",
+        source_url: "",
+        image_url: "",
+        cooking_time: "",
+        servings: "",
+        publisher: "",
+      },
+      ingredients: {},
+    });
   };
 
   componentDidUpdate(prevProps) {
