@@ -1,0 +1,124 @@
+.recipe__details {
+  display: flex;
+  align-items: center;
+  padding: 7.5rem 8rem 3.5rem 8rem;
+}
+
+.recipe__info {
+  font-size: 1.65rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.recipe__info:not(:last-child) {
+  margin-right: 4.5rem;
+}
+
+.recipe__details .recipe__infoIcon {
+  height: 2.8rem;
+  width: 2.8rem;
+  fill: #f38e82;
+  margin-right: 1.15rem;
+}
+
+.recipe__details .recipe__infoIcon2 {
+  height: 2.3rem;
+  width: 2.3rem;
+  fill: #f38e82;
+  margin-right: 1.5rem;
+}
+
+.infoData {
+  margin-right: 0.5rem;
+  font-weight: 700;
+}
+
+.infoBtn {
+  display: flex;
+  margin-left: 1.6rem;
+  transform: translateY(-1px);
+}
+
+.recipe__user {
+  background-color: #eeeae8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 10rem;
+  margin-left: auto;
+  margin-right: 1.75rem;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.recipe__details .recipe__userIcon {
+  height: 2.25rem;
+  width: 2.25rem;
+  fill: #f38e82;
+}
+
+.btnTiny {
+  height: 2rem;
+  width: 2rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  align-items: flex-start;
+  display: inline-block;
+  text-align: center;
+}
+
+.btnRound {
+  background-image: linear-gradient(to right bottom, #fbdb89, #f48982);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  height: 4.5rem;
+  width: 4.5rem;
+  transition: all 0.2s;
+}
+
+.btnRound:hover {
+  transform: scale(1.07);
+}
+
+.btnRound:focus {
+  outline: none;
+}
+
+.recipe__details .btnRoundIcon {
+  height: 2.5rem;
+  width: 2.5rem;
+  fill: #fff;
+}
+
+.btnTiny span {
+  height: 100%;
+  width: 100%;
+  fill: #f38e82;
+  transition: all 0.3s;
+}
+
+.btnTiny:hover span {
+  fill: #f48982;
+  transform: translateY(-1px);
+}
+
+.btnTiny:focus {
+  outline: none;
+}
+
+.btntiny:active span {
+  fill: #f48982;
+  transform: translateY(0);
+}
+
+.btnTiny:not(:last-child) {
+  margin-right: 0.5rem;
+}

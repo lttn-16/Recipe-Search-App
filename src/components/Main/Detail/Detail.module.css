@@ -1,0 +1,24 @@
+.recipe2 {
+  background-color: #f9f5f3;
+}
+
+.message2 {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 5rem 4rem;
+  display: flex;
+}
+
+.message2 p {
+  margin-left: 1.5rem;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.recipe2 .messIcon {
+  height: 3.6rem;
+  width: 3.6rem;
+  fill: #f38e82;
+  transform: translateY(-0.3rem);
+}
